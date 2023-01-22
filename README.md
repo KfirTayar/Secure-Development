@@ -22,6 +22,10 @@ python manage.py axes_reset
 Username: ADMIN
 Password: CSDjango1234
 
+## XSS
+- Use this text for example in the register form on the first name field: `<script>alert('XSS')</script>`
+- The script will be executed when you sign in with the user.
+
 ## Config
 - Password length is determined IN `AUTH_PASSWORD_VALIDATORS -> UserAttributeSimilarityValidator -> OPTIONS -> min_length`
 - Complex password is determined IN `AUTH_PASSWORD_VALIDATORS -> PasswordCharacterValidator -> OPTIONS`
