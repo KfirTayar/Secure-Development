@@ -1,12 +1,12 @@
 # Final Secure Development Project in Django
 
-##Setup
+## Setup
 
 1. Install Python 3.9 or higher.
 2. Install all requirements from requirements.txt.
 3. Run with the function below:
 
-##Run
+## Run
 
 ```
 python .\manage.py runserver_plus --cert .\openssl-ca\RootCA.crt
