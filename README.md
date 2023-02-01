@@ -1,4 +1,4 @@
-# Secure Development Project in Django framework
+# Secure Development Project (Using Django framework)
 
 ## Setup
 
